@@ -1,8 +1,12 @@
 #include <memory>
 #include <vector>
 
-#include "bubble_sort.hpp"
 #include "sort_algorithm.hpp"
+
+/*
+ * Sorting algorithms header file.
+ */
+#include "bubble_sort.hpp"
 
 template <typename T>
 class Sort {
