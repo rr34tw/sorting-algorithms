@@ -1,6 +1,7 @@
 #include <memory>
 #include <vector>
 
+#include "bubble_sort.hpp"
 #include "sort_algorithm.hpp"
 
 template <typename T>
