@@ -53,6 +53,7 @@ int main() {
         test_sorted_result(Sort<BubbleSort>(), v);
         test_sorted_result(Sort<SelectionSort>(), v);
         test_sorted_result(Sort<InsertionSort>(), v);
+        test_sorted_result(Sort<HeapSort>(), v);
     }
     catch (const exception& e) {
         cerr << "Exception: " << e.what() << endl;
