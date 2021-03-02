@@ -55,6 +55,7 @@ int main() {
         test_sorted_result(Sort<InsertionSort>(), v);
         test_sorted_result(Sort<HeapSort>(), v);
         test_sorted_result(Sort<ShellSort>(), v);
+        test_sorted_result(Sort<QuickSort>(), v);
     }
     catch (const exception& e) {
         cerr << "Exception: " << e.what() << endl;
