@@ -57,6 +57,7 @@ int main() {
         test_sorted_result(Sort<ShellSort>(), v);
         test_sorted_result(Sort<QuickSort>(), v);
         test_sorted_result(Sort<STLSort>(), v);
+        test_sorted_result(Sort<MergeSort>(), v);
     }
     catch (const exception& e) {
         cerr << "Exception: " << e.what() << endl;
