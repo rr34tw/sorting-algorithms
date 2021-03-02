@@ -12,6 +12,7 @@
 #include "quick_sort.hpp"
 #include "selection_sort.hpp"
 #include "shell_sort.hpp"
+#include "stl_sort.hpp"
 
 template <typename T>
 class Sort {
