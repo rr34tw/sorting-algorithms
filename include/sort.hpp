@@ -7,6 +7,7 @@
  * Sorting algorithms header file.
  */
 #include "bubble_sort.hpp"
+#include "selection_sort.hpp"
 
 template <typename T>
 class Sort {
